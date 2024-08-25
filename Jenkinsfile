@@ -53,7 +53,7 @@ pipeline {
     }
     post {
         always {
-            mail to: 'your-email@example.com',
+            mail to: 'iwsj4redvelvet@gmail.com',
                  subject: "Pipeline: ${currentBuild.fullDisplayName}",
                  body: "Pipeline Status: ${currentBuild.currentResult}\n\n${env.BUILD_URL}",
                  attachLog: true
