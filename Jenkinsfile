@@ -13,7 +13,7 @@ echo "Running unit tests with JUnit and integration tests with Selenium"
 post {
 success {
 emailext (
-to: "hongthamnguyen2703@gmail.com",
+to: "iwsj4redvelvet@gmail.com",
 subject: "Unit and Integration Tests Stage Success",
 body: "The Unit and Integration Tests stage has completed successfully!",
 attachLog: true
@@ -21,7 +21,7 @@ attachLog: true
 }
 failure {
 emailext (
-to: "hongthamnguyen2703@gmail.com",
+to: "iwsj4redvelvet@gmail.com",
 subject: "Unit and Integration Tests Stage Failure",
 body: "The Unit and Integration Tests stage has failed!",
 attachLog: true
@@ -41,7 +41,7 @@ echo "Performing security scan using OWASP ZAP"
 post {
 success {
 emailext (
-to: "hongthamnguyen2703@gmail.com",
+to: "iwsj4redvelvet@gmail.com",
 subject: "Security Scan Stage Success",
 body: "The Security Scan stage has completed successfully!",
 attachLog: true
